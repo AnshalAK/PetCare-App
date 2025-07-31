@@ -1,0 +1,82 @@
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fef7ef;
+  color: #333;
+  overflow-y: auto;
+}
+
+/* Main app layout */
+.main-app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Sticky Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #f4f1ec;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo / Title */
+.navbar-logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #5a5a5a;
+}
+
+/* Navbar links container */
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+/* Each link */
+.navbar-links a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #5a5a5a;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #7da97e;
+}
+
+/* Page content container */
+.content {
+  flex: 1;
+  padding: 24px;
+}
+
+/* Dashboard sections */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 24px;
+}
+
+.add-pet-section,
+.pet-list-section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}

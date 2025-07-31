@@ -1,0 +1,75 @@
+.add-pet-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  background-color: #fff7f0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.add-pet-container h2 {
+  text-align: center;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+.add-pet-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.image-upload {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.circle-upload {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px dashed #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.plus-icon {
+  font-size: 36px;
+  color: #c4c4c4;
+}
+
+.uploaded-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  border: 1px solid #c4c4c4;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}

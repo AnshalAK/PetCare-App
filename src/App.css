@@ -1,0 +1,150 @@
+.login-page {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.google-login-button {
+  background-color: #4285f4;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.google-login-button:hover {
+  background-color: #357ae8;
+}
+
+.main-app {
+  text-align: center;
+  margin-top: 20px;
+}
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5efe6; 
+}
+
+
+/* Container for the login page */
+.login-page {
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: 100px auto 30px auto; /* Centered horizontally, spaced from top */
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(106, 96, 90, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.login-page:hover {
+  transform: translateY(-5px); /* Subtle lift on hover */
+  box-shadow: 0 12px 30px rgba(106, 96, 90, 0.3); /* Enhance shadow on hover */
+}
+
+/* Title */
+.login-page h2 {
+  margin-bottom: 25px;
+  color: #6b705c; /* Soft sage green */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Input fields */
+.login-page input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px; /* Rounded corners */
+  font-size: 16px;
+  color: #6b705c; /* Sage green text */
+  background-color: #f8f6f4; /* Light beige */
+  outline: none;
+  transition: border 0.3s, background-color 0.3s;
+}
+
+.login-page input:focus {
+  border: 1px solid #a5a58d; /* Sage green focus border */
+  background-color: #fdfaf7; /* Slightly lighter background */
+}
+
+/* Buttons */
+.login-page button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button[type="submit"] {
+  background-color: #f4cccc; /* Soft pink */
+  color: #6b705c; /* Sage green text */
+  box-shadow: 0 4px 10px rgba(255, 183, 192, 0.2); /* Soft pink shadow */
+}
+
+button[type="submit"]:hover {
+  background-color: #f3c3bd; /* Slightly darker pink */
+  transform: scale(1.02); /* Subtle zoom */
+  box-shadow: 0 6px 14px rgba(255, 183, 192, 0.3); /* Enhanced shadow */
+}
+
+.google-login-button {
+  background-color: #a5a58d; /* Sage green */
+  color: white;
+  margin-top: 10px;
+  box-shadow: 0 4px 10px rgba(165, 165, 141, 0.2); /* Soft sage shadow */
+}
+
+.google-login-button:hover {
+  background-color: #8f9779; /* Darker sage */
+  transform: scale(1.02); /* Subtle zoom */
+  box-shadow: 0 6px 14px rgba(165, 165, 141, 0.3); /* Enhanced shadow */
+}
+
+/* Error message */
+.login-page p.error {
+  color: #d9534f; /* Red for error message */
+  font-size: 14px;
+  margin: 5px 0 10px;
+}
+
+/* Toggle link */
+.login-page p span {
+  color: #6b705c; /* Sage green */
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .login-page {
+    padding: 20px 30px;
+  }
+}
+/* Include styles from the previous example */
+
+/* Additional styling for new confirmation field */
+.login-page input {
+  /* Existing styles remain */
+  margin: 10px 0;
+}
+
+/* Error message styling */
+.login-page p.error {
+  color: #d9534f; /* Red for error message */
+  font-size: 14px;
+  margin-top: 5px;
+}

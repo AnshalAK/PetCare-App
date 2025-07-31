@@ -1,0 +1,83 @@
+.profile-page {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f5f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-page h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #5a5a5a;
+}
+
+.profile-details {
+  margin-top: 20px;
+}
+
+.profile-item {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-item label {
+  font-size: 16px;
+  color: #7da97e;
+  font-weight: bold;
+}
+
+.profile-item span {
+  font-size: 16px;
+  color: #5a5a5a;
+}
+
+.profile-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 60%;
+}
+
+.edit-btn,
+.save-btn,
+.cancel-btn {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-btn {
+  background-color: #7da97e;
+  color: #fff;
+}
+
+.save-btn {
+  background-color: #5c8c7a;
+  color: #fff;
+}
+
+.cancel-btn {
+  background-color: #ff6f61;
+  color: #fff;
+}
+
+.edit-btn:hover,
+.save-btn:hover,
+.cancel-btn:hover {
+  opacity: 0.9;
+}
+
+.message {
+  color: #ff6f61;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
